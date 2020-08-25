@@ -1,4 +1,4 @@
-<h1 align="center">@fwd/cron 💿</h1>
+<h1 align="center">@fwd/cron 🔁</h1>
 
 > A NodeJS wrapper around setInterval for cron like repetitive tasks.
 
