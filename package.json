@@ -1,6 +1,6 @@
 {
   "name": "@fwd/cron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A NodeJS wrapper around setInterval for expressive cron like repetitive tasks.",
   "main": "index.js",
   "author": "Forward Miami <hello@forward.miami>",
@@ -23,5 +23,8 @@
     "jshint-stylish": "^1.0.1",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "@fwd/time": "0.0.1"
   }
 }
