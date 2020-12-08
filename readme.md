@@ -18,16 +18,12 @@ const cache = require('@fwd/cache')
 
 // run cron every two hours
 cron(() => {
-
 	console.log("Hello World, Every 2 Hours")
-
 }, 'every 2 hours')
 
 // run cron every two hours, and run once on init
 cron(() => {
-
 	console.log("Hello World, Every 2 Hours, And On Init")
-
 }, 'every 2 hours', true)
 
 ```
@@ -44,7 +40,6 @@ cron(functionToRun, naturalLanguageInterval, runOnInitate)
 
 This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals. Visit dedicated package page to view available time intervals. 
 
-<br> 
 
 ## 👤 Author
 
