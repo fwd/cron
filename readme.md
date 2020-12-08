@@ -42,7 +42,9 @@ cron(functionToRun, naturalLanguageInterval, runOnInitate)
 
 ## Natural Language Interval
 
-This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals. 
+This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals. Visit dedicated package page to view available time intervals. 
+
+<br> 
 
 ## 👤 Author
 
