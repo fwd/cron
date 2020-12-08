@@ -19,7 +19,7 @@ const cache = require('@fwd/cache')
 // run cron every two hours
 cron(() => {
 	console.log("Hello World, Every 2 Hours")
-}, 'every 2 hours')
+}, 'every 2 days')
 
 // run cron every two hours, and run once on init
 cron(() => {
