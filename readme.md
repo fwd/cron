@@ -14,16 +14,16 @@ npm install @fwd/cron
 
 ```js
 
-const cache = require('@fwd/cache')
+const cache = require('@fwd/cron')
 
 // run cron every two hours
 cron(() => {
-	console.log("Hello World, Every 2 Hours")
+   console.log("Hello World, Every 2 Hours")
 }, 'every 24 hours')
 
 // run cron every two hours, and run once on init
 cron(() => {
-	console.log("Hello World, Every 2 Hours, And On Init")
+   console.log("Hello World, Every 2 Hours, And On Init")
 }, 'every 1 month', true)
 
 ```
