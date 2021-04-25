@@ -21,7 +21,7 @@ cron(() => {
 }, 'every 24 hours')
 
 cron(() => {
-   // runs every 1 month, and immediately 
+   // runs every 1 month, and immediately once
 }, 'every 1 month', true)
 
 ```
