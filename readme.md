@@ -44,7 +44,7 @@ cron(function, interval, runImmediately)
 
 This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals. 
 
-**Forward Miami**
+## 👤 Author
 
 * Github: [@fwd](https://github.com/fwd)
 * Website: [https://forward.miami](https://forward.miami)
