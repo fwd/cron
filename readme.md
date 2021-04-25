@@ -34,10 +34,15 @@ cron(function, interval, runImmediately)
 
 ````
 
-## Natural Language Interval
+## Available Intervals
 
-This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals.
+- second(s)
+- minute(s)
+- hour(s)
+- month(s)
+- year(s)
 
+This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals. 
 
 **Forward Miami**
 
