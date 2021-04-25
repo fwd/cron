@@ -14,7 +14,7 @@ npm install fwd/cron
 
 ```js
 
-const cache = require('@fwd/cron')
+const cron = require('@fwd/cron')
 
 cron(() => {
    // runs every 24 hours
