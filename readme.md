@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-npm install @fwd/cron
+npm install fwd/cron
 ```
 
 ## Usage
@@ -16,14 +16,12 @@ npm install @fwd/cron
 
 const cache = require('@fwd/cron')
 
-// run cron every two hours
 cron(() => {
-   console.log("Hello World, Every 2 Hours")
+   // runs every 24 hours
 }, 'every 24 hours')
 
-// run cron every two hours, and run once on init
 cron(() => {
-   console.log("Hello World, Every 2 Hours, And On Init")
+   // runs every 1 month, and immediately 
 }, 'every 1 month', true)
 
 ```
@@ -32,13 +30,13 @@ cron(() => {
 
 ```js
 
-cron(functionToRun, naturalLanguageInterval, runOnInitate)
+cron(function, interval, runImmediately)
 
 ````
 
 ## Natural Language Interval
 
-This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals. Visit dedicated package page to view available time intervals. 
+This package uses [@fwd/time](https://github.com/fwd/time) to parse time intervals.
 
 
 **Forward Miami**
